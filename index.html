@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Snitch Nola Clothing — affordable style for every student. Shop colorful graphic tees and casual streetwear.">
+  <meta name="description" content="Snitch Nola Clothing — affordable style for every student.">
   <title>Snitch Nola Clothing | Affordable Style for Every Student</title>
   <link rel="icon" href="images/snitch-nola-logo.png">
   <link rel="stylesheet" href="style.css">
@@ -13,20 +13,19 @@
 <body>
   <div class="announcement">STUDENT-FRIENDLY STYLE • COLOR YOUR EVERYDAY</div>
   <header class="site-header">
-    <a class="brand" href="#home" aria-label="Snitch Nola Clothing home">
+    <a class="brand" href="index.html" aria-label="Snitch Nola Clothing home">
       <img src="images/snitch-nola-logo.png" alt="Snitch Nola Clothing logo">
     </a>
     <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
     <nav id="main-nav" class="main-nav">
-      <a href="#home">Home</a>
-      <a href="#shop">Shop</a>
-      <a href="#story">Our Story</a>
-      <a href="#promo">Promo Video</a>
-      <a href="#contact">Contact</a>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="story.html">Our Story</a>
+      <a href="index.html#promo">Promo Video</a>
+      <a href="contact.html">Contact</a>
     </nav>
-    <a class="header-cta" href="#shop">Shop the drop <span>↗</span></a>
+    <a class="header-cta" href="shop.html">Shop the drop <span>↗</span></a>
   </header>
-
   <main>
     <section class="hero section-wrap" id="home">
       <div class="hero-copy">
@@ -34,8 +33,8 @@
         <h1>GOOD STYLE.<br><span class="outlined">SMART PRICE.</span></h1>
         <p class="hero-description">Fresh graphic tees and casual essentials made for your everyday. Express your style without stretching your student budget.</p>
         <div class="hero-actions">
-          <a class="button button-dark" href="#shop">Explore the collection <span>↘</span></a>
-          <a class="text-link" href="#story">Meet the brand <span>→</span></a>
+          <a class="button button-dark" href="shop.html">Explore the collection <span>↘</span></a>
+          <a class="text-link" href="story.html">Meet the brand <span>→</span></a>
         </div>
         <div class="hero-note"><span class="color-bars"><i></i><i></i><i></i><i></i></span> Affordable style for every student.</div>
       </div>
@@ -54,107 +53,6 @@
       <div>STAY COLORFUL <span>✳</span> KEEP IT COMFY <span>✳</span> LOOK GOOD FOR LESS <span>✳</span> STAY COLORFUL <span>✳</span> KEEP IT COMFY <span>✳</span></div>
     </section>
 
-    <section class="shop section-wrap" id="shop">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">THE COLLECTION / 001</p>
-          <h2>Find your <span>everyday fit.</span></h2>
-        </div>
-        <p class="section-side-note">Easy pieces. Bold energy.<br>Prices made for real life.</p>
-      </div>
-
-      <div class="shop-tools">
-        <label class="search-box" for="product-search"><span>⌕</span><input id="product-search" type="search" placeholder="Search the collection..." aria-label="Search products"></label>
-        <div class="filter-buttons" role="group" aria-label="Filter products">
-          <button class="filter-button active" data-filter="all">All items</button>
-          <button class="filter-button" data-filter="tops">Tops</button>
-          <button class="filter-button" data-filter="bottoms">Bottoms</button>
-        </div>
-      </div>
-
-      <div class="product-grid" id="product-grid">
-        <article class="product-card" data-name="snitch nola graphic tee" data-category="tops" data-product="Graphic T-shirt" data-price="450">
-          <div class="product-image product-image-shirt"><span class="product-tag">BEST SELLER</span><img src="images/snitch-nola-graphic-tee.png" alt="Snitch Nola graphic T-shirt"></div>
-          <div class="product-meta"><div><h3>Snitch Nola Graphic Tee</h3><p>Everyday collection</p></div><strong>₱450</strong></div>
-          <button class="add-button" data-select-product="Graphic T-shirt">Choose this tee <span>+</span></button>
-        </article>
-        <article class="product-card" data-name="classic casual top" data-category="tops" data-product="Casual Top" data-price="399">
-          <div class="product-image product-image-color"><span class="abstract-shirt"></span><span class="product-tag">EASY WEAR</span><span class="image-label">CASUAL<br>TOP</span></div>
-          <div class="product-meta"><div><h3>Classic Casual Top</h3><p>Simple and versatile</p></div><strong>₱399</strong></div>
-          <button class="add-button" data-select-product="Casual Top">Choose this top <span>+</span></button>
-        </article>
-        <article class="product-card" data-name="everyday hoodie" data-category="tops" data-product="Hoodie" data-price="799">
-          <div class="product-image product-image-blue"><span class="abstract-hoodie"></span><span class="product-tag">COZY PICK</span><span class="image-label">EVERYDAY<br>HOODIE</span></div>
-          <div class="product-meta"><div><h3>Everyday Hoodie</h3><p>Comfort on repeat</p></div><strong>₱799</strong></div>
-          <button class="add-button" data-select-product="Hoodie">Choose this hoodie <span>+</span></button>
-        </article>
-        <article class="product-card" data-name="relaxed fit shorts" data-category="bottoms" data-product="Shorts" data-price="349">
-          <div class="product-image product-image-yellow"><span class="abstract-shorts"></span><span class="product-tag">DAILY BASIC</span><span class="image-label">RELAXED<br>SHORTS</span></div>
-          <div class="product-meta"><div><h3>Relaxed Fit Shorts</h3><p>Made for moving</p></div><strong>₱349</strong></div>
-          <button class="add-button" data-select-product="Shorts">Choose these shorts <span>+</span></button>
-        </article>
-      </div>
-      <p class="catalog-note">Demo catalog for the school project. Product options and prices can be edited in <code>main.py</code>.</p>
-    </section>
-
-    <section class="order-section" id="order">
-      <div class="order-layout section-wrap">
-        <div class="order-copy">
-          <p class="eyebrow">YOUR PICK / YOUR FIT</p>
-          <h2>Build your<br><span>order.</span></h2>
-          <p>Choose your item, select your size and color, then see your total update. Simple shopping, no guesswork.</p>
-          <div class="order-promise"><span>✓</span> Clear pricing before you order</div>
-          <div class="order-promise"><span>✓</span> Choose a size and color</div>
-          <div class="order-promise"><span>✓</span> Order summary at the end</div>
-        </div>
-        <form id="order-form" class="order-card">
-          <div class="form-title"><span>SN / ORDER FORM</span><span class="form-step">01 — 03</span></div>
-          <label for="customer-name">Your name</label>
-          <input id="customer-name" name="customer-name" type="text" placeholder="Enter your name" required>
-          <div class="form-row">
-            <div class="form-field">
-              <label for="product">Product</label>
-              <select id="product" name="product">
-                <option value="Graphic T-shirt" data-price="450">Graphic T-shirt — ₱450</option>
-                <option value="Casual Top" data-price="399">Casual Top — ₱399</option>
-                <option value="Hoodie" data-price="799">Hoodie — ₱799</option>
-                <option value="Shorts" data-price="349">Shorts — ₱349</option>
-              </select>
-            </div>
-            <div class="form-field">
-              <label for="size">Size</label>
-              <select id="size" name="size">
-                <option value="S">Small (S)</option>
-                <option value="M" selected>Medium (M)</option>
-                <option value="L">Large (L)</option>
-                <option value="XL">Extra Large (XL)</option>
-              </select>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="form-field">
-              <label for="color">Color preference</label>
-              <select id="color" name="color">
-                <option>White</option><option>Black</option><option>Red</option><option>Blue</option><option>Yellow</option>
-              </select>
-            </div>
-            <div class="form-field">
-              <label for="quantity">Quantity</label>
-              <div class="quantity-control"><button type="button" id="qty-minus" aria-label="Decrease quantity">−</button><input id="quantity" name="quantity" type="number" min="1" max="20" value="1" required><button type="button" id="qty-plus" aria-label="Increase quantity">+</button></div>
-            </div>
-          </div>
-          <div class="price-summary">
-            <div><span>Price per item</span><strong id="unit-price">₱450</strong></div>
-            <div><span>Quantity</span><strong id="quantity-display">1</strong></div>
-            <div class="total-row"><span>Estimated total</span><strong id="total-price">₱450</strong></div>
-          </div>
-          <button class="button button-color submit-order" type="submit">Create order summary <span>↗</span></button>
-          <p class="form-small">School demo only: this form does not collect payments or send an actual order.</p>
-          <div id="order-result" class="order-result" role="status" aria-live="polite" hidden></div>
-        </form>
-      </div>
-    </section>
-
     <section class="promo-section section-wrap" id="promo">
       <div class="section-heading">
         <div><p class="eyebrow">WATCH THE DROP</p><h2>Small budget.<br><span>Big personality.</span></h2></div>
@@ -162,7 +60,7 @@
       </div>
       <div class="video-frame">
         <video id="promo-video" controls playsinline preload="metadata" poster="images/snitch-nola-graphic-tee.png">
-          <source src="videos/snitch-nola-promo.mp4" type="video/mp4">
+          <source src="videos/SNITCH_NOLA_PROM.mp4" type="video/mp4">
           Your browser does not support embedded video.
         </video>
         <div class="video-overlay" id="video-placeholder">
@@ -175,35 +73,12 @@
       <p class="video-caption">PROMO FILM / SNITCH NOLA CLOTHING / EVERYDAY STREETWEAR</p>
     </section>
 
-    <section class="story-section" id="story">
-      <div class="story-inner section-wrap">
-        <div class="story-logo"><img src="images/snitch-nola-logo.png" alt="Snitch Nola logo"></div>
-        <div class="story-copy">
-          <p class="eyebrow">WHO WE ARE</p>
-          <h2>Style should feel good.<br><span>So should the price.</span></h2>
-          <p>Snitch Nola Clothing is a proposed clothing brand for students and young adults who want comfortable, trendy, and affordable everyday wear. We use customer preferences to guide our product choices, prices, and designs.</p>
-          <div class="story-stats"><div><strong>₱450</strong><span>Featured graphic tee</span></div><div><strong>Student-first</strong><span>Our main audience</span></div><div><strong>Everyday</strong><span>Our kind of style</span></div></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact-section section-wrap" id="contact">
-      <div><p class="eyebrow">LET'S CONNECT</p><h2>Your next favorite<br><span>fit starts here.</span></h2></div>
-      <div class="contact-card">
-        <p>Want to ask about sizes, colors, or future drops? Contact the team through your preferred social platform.</p>
-        <a class="contact-link" href="https://www.facebook.com/" target="_blank" rel="noreferrer">Facebook <span>↗</span></a>
-        <a class="contact-link" href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram <span>↗</span></a>
-        <p class="contact-note">Replace these links with the official Snitch Nola Clothing pages before publishing.</p>
-      </div>
-    </section>
   </main>
-
   <footer class="site-footer">
     <a href="#home" class="footer-brand">SNITCH NOLA<span>®</span></a>
     <p>Affordable style for every student.</p>
     <p>© 2026 Snitch Nola Clothing · Student project demo</p>
   </footer>
-
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <script type="py" src="./main.py"></script>
 </body>
